@@ -13,7 +13,7 @@ function App() {
     }, 2000)
   }
   return (
-    <div className="flex flex-col justify-center bg-[#91DDCF]">
+    <div className="flex flex-col justify-center backdrop-blur-md bg-custom-gradient h-screen">
       <Button name="Click it" icon="🧔‍♂️" handler={()=>handleClick()}/>
       { !visible ? <div className='mx-auto mt-[6em]'><Loader/></div> :
       (<div className='p-[2em] bg-[#219C90] text-2xl font-serif mx-auto rounded mt-[4em]' >
