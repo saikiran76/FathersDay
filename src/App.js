@@ -19,7 +19,7 @@ function App() {
       (<div className='p-[2em] bg-[#219C90] text-2xl font-serif mx-auto rounded mt-[4em]' >
         <h1 className='text-center font-bold font-serif text-2xl text-[#F7F9F2]'>Happy Father's day</h1>
         <p className='text-center font-bold font-serif text-2xl text-[#FFC700]'>Daddy</p>
-        <img src={dad} className='mx-auto w-[50%] mt-[1em] rounded' alt='pic'/>
+        <img src={dad} className='mx-auto w-[70%] mt-[1em] rounded' alt='pic'/>
       </div>)
       }
       
